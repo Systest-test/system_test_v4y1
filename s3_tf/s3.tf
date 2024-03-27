@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "aws-s3-create-bucket-bc" {
-  acl   = "public-read-write"
+  acl   = "private"
   bucket = "user_bucket_name"
   versioning {
     enabled = false
